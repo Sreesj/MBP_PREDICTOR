@@ -12,7 +12,7 @@ The easiest way to test this project is to run the GUI notebook on Google Colab.
 
 1. Open Google Colab and upload the GUI/GUI.ipynb notebook (or open it directly from GitHub).
 2. If running from GitHub, you can clone the repo inside Colab:
-`ash
+`
 !git clone https://github.com/Sreesj/MBP_PREDICTOR.git
 %cd MBP_PREDICTOR
 `
@@ -37,39 +37,6 @@ Notes:
 
 ---
 
-### Project Structure
-
-`	ext
-MBP_PREDICTOR/
-â”œâ”€ GUI/
-â”‚  â””â”€ GUI.ipynb                # Colab-friendly GUI to run predictions
-â”œâ”€ src/                        # Feature extraction and utilities
-â”‚  â”œâ”€ extract_all_features.py
-â”‚  â”œâ”€ feature_aac.py
-â”‚  â”œâ”€ feature_charge.py
-â”‚  â”œâ”€ feature_ctd.py
-â”‚  â”œâ”€ feature_embeddings.py
-â”‚  â”œâ”€ feature_hydrophobicity.py
-â”‚  â”œâ”€ feature_motif.py
-â”‚  â”œâ”€ feature_physicochemical.py
-â”‚  â”œâ”€ feature_pi.py
-â”‚  â””â”€ utils.py
-â”œâ”€ TRAINED_MODELS/
-â”‚  â”œâ”€ LightGBM_91.22.pkl
-â”‚  â””â”€ LightGBM_92.pkl
-â”œâ”€ notebooks/                  # Data prep, feature exploration, training
-â”‚  â”œâ”€ feature_extraction.ipynb
-â”‚  â”œâ”€ feature_visualization.ipynb
-â”‚  â”œâ”€ cleaning_validation.ipynb
-â”‚  â”œâ”€ model_training.ipynb
-â”‚  â””â”€ model_training_2.ipynb
-â”œâ”€ feature_importance_analysis/
-â”‚  â””â”€ feature_importance_analysis.ipynb
-â”œâ”€ requirements.txt
-â””â”€ README.md
-`
-
----
 
 ### Local Development (optional)
 
