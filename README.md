@@ -72,8 +72,7 @@ jupyter notebook
 
 If you use MBP_PREDICTOR in your research, please cite this repository:
 
-`	ext
-Sreejith S. (2025). MBP_PREDICTOR: Machine learning-based microtubule-binding protein prediction.
+`MBP_PREDICTOR: Machine learning-based microtubule-binding protein prediction.
 GitHub repository: https://github.com/Sreesj/MBP_PREDICTOR
 `
 
